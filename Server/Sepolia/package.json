@@ -1,0 +1,25 @@
+{
+  "name": "sepolia-api",
+  "version": "1.0.0",
+  "description": "API to Interact with the Staking Smart Contract",
+  "main": "app.js",
+  "scripts": {
+    "start": "ts-node src/app.ts"
+  },
+  "author": "Ayush Khandelwal",
+  "license": "MIT",
+  "dependencies": {
+    "@wagmi/connectors": "^5.1.7",
+    "@wagmi/core": "^2.13.4",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "ts-node-dev": "^2.0.0",
+    "viem": "^2.21.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
