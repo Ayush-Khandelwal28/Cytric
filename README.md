@@ -23,12 +23,13 @@ This repository contains a custom staking smart contract, an Express.js API to i
 ## Live Links
 
 - **Verified Contract:** [Staking Contract](https://sepolia.etherscan.io/address/0xc95Cc3F45E62f977C40ad4fD9259E9b775fB2A32#code)
+- **Verified Contract:** [ERC20 Tokens](https://sepolia.etherscan.io/address/0x423DFf192F47949C741836b1E1E382D8bD33db3B#code)
 - **Render Sepolia URL:** [Fetch Staking Info](https://cytric-1.onrender.com/staking-info/:address)
 - **Render Solana Supply URL:** [Fetch Token Supply](https://cytric-solana.onrender.com/solana/token-supply)
 - **Render Solana Balance URL:** [Fetch User Balance](https://cytric-solana.onrender.com/solana/token-balance/:address)
 
 
-
+- **Code Explanation and Demo Video** [Video](https://drive.google.com/file/d/17kp7KOIUX46YwgJliIXYN_rObDNgUrWk/view?usp=sharing)
 
 
 
@@ -46,7 +47,8 @@ This repository contains a custom staking smart contract, an Express.js API to i
 
 ## Task 1: Develop and Deploy a Custom Staking Smart Contract
 
-### Verified Contract --> 'https://sepolia.etherscan.io/address/0xc95Cc3F45E62f977C40ad4fD9259E9b775fB2A32#code'
+- **Verified Contract:** [Staking Contract](https://sepolia.etherscan.io/address/0xc95Cc3F45E62f977C40ad4fD9259E9b775fB2A32#code)
+- **Verified Contract:** [ERC20 Tokens](https://sepolia.etherscan.io/address/0x423DFf192F47949C741836b1E1E382D8bD33db3B#code)
 
 ### Staking Mechanism
 - **Stake Tokens**: Users can stake ERC-20 tokens using the `stake(uint256 amount)` function. Tokens are transferred from the user's wallet to the contract, and the staking information is updated.
